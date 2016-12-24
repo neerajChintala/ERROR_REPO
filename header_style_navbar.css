@@ -1,0 +1,39 @@
+ul {
+    float: center;
+    list-style-type: none;
+    margin: 0;
+    height: 15%;
+    padding: 0px;
+    padding-bottom: 100%;
+    overflow: hidden;
+}
+ul: .dropdown{
+    position: right;
+    padding-top: 100%;
+}
+.banner{
+    width: 100%;
+    padding: 100px;
+    background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(45deg, #1e5799 0%, #207cca 24%, #207cca 24%, #2989d8 50%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #1e5799 0%,#207cca 24%,#207cca 24%,#2989d8 50%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #1e5799 0%,#207cca 24%,#207cca 24%,#2989d8 50%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    padding-top: 7px;
+    background-color: #3F51B5;
+}
